@@ -49,7 +49,7 @@ for exercise in result["exercises"]:
     #Adding a new row in my sheets
     sheety_response = requests.post(sheety_endpoint, json=sheet_inputs, headers=sheety_headers)
 
-    print(sheety_response.text) # here you can see the results in a json format, and if you will go to your google sheet you will
+    print(sheety_response.text) # here you can see the results in a json format, and if you will go to your google sheet you will see
                                 # the exact same values but easier to read formatted.
 
 
